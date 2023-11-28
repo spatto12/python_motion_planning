@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # build environment
     start = (5, 5)
     goal = (45, 25)
-    env = Grid(51, 31)
+    env = Grid(120, 54)
 
     # creat planner
     planner = search_factory("a_star", start=start, goal=goal, env=env)
